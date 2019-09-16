@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <input
+          type="text"
+          placeholder="Enter your task"
+          class="header__input"
+        />
+        <button class="header__button">Add</button>
+      </header>
+      <section class="filter">
+        <input type="text" placeholder="Filter tasks" class="filter__input" />
+        <button class="filter__button">Filter</button>
+      </section>
+
+      <h1 class="tasks-title">My Tasks</h1>
+      <section class="tasks"></section>
+    </div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
